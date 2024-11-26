@@ -1,0 +1,147 @@
+/* General Reset */
+/* Applies to all elements to ensure consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+/* General styles for the page background and typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Styles */
+/* Styling the main header using an ID */
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#main-header h1 {
+    font-size: 2em;
+}
+
+#main-header h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* Navigation Styles */
+/* Use a class for the navigation bar and links */
+.nav {
+    display: flex;
+    justify-content: center;
+    background: #555;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+/* General styles for the main content area */
+#main-content {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Table Styles */
+/* Table for general use */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background: #333;
+    color: #fff;
+}
+
+.table-row-link a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.table-row-link a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Form Styles */
+/* Styling the contact form using a class */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.text-input, .textarea-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.submit-button:hover {
+    background: #555;
+}
+
+/* Image Styles */
+/* Use a class for general image styling */
+.img {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+/* Styling the footer using an ID */
+#main-footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
