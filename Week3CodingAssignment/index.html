@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata and linking Bootstrap CSS -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>James' Shop</title>
@@ -10,6 +11,9 @@
     />
   </head>
   <body class="bg-primary-subtle">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- Banner Section -->
     <div class="banner-container text-center">
       <img
         src="images/mountains-6742185.jpg"
@@ -19,6 +23,7 @@
         width="2000px"
       />
     </div>
+    <!-- Navigation Bar -->
     <div class="container" style="max-width: 2024px">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -35,6 +40,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navigation Links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
@@ -54,6 +60,7 @@
                 >
                   Shop
                 </a>
+                <!-- Dropdown Menu -->
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="shop.html#candy">Candy</a>
@@ -67,6 +74,8 @@
                 </ul>
               </li>
             </ul>
+
+            <!-- Search Form -->
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
@@ -82,6 +91,8 @@
         </div>
       </nav>
     </div>
+
+    <!-- Welcome Section -->
     <div class="container mb-5 fs-5">
       <h1 class="text-center mb-5">Welcome To My Shop</h1>
     </div>
@@ -121,9 +132,11 @@
       </p>
     </div>
 
+    <!-- Featured Items Section -->
     <div class="container mt-4 text-center">
       <h2>Featured Items</h2>
       <div class="row">
+        <!-- Candy Card -->
         <div class="col-md-4">
           <div class="card">
             <img
@@ -138,6 +151,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Snacks Card -->
         <div class="col-md-4">
           <div class="card">
             <img
@@ -152,6 +167,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Drinks Card -->
         <div class="col-md-4">
           <div class="card">
             <img
@@ -168,10 +185,8 @@
         </div>
       </div>
     </div>
-
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <br /><br />
+    <!-- Footer Section -->
     <footer class="text-center">James Franchino &copy; 2024</footer>
   </body>
 </html>
